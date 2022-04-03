@@ -1271,8 +1271,8 @@ $('li[class^="select_job_"]').click(function(){
   var name = $(this).attr("name");
   $(".select_main_job_name").text(job_name);
   $(".char_main_name").text(job_name);
-  $(".select_main_job_img_change").attr("src",'img/jobicon/01/'+name+'.png');
-  $(".char_main_job_icon_img").attr("src",'img/jobicon/mainjob/'+name+'.png');
+  $(".select_main_job_img_change").attr("src",'/img/jobicon/01/'+name+'.png');
+  $(".char_main_job_icon_img").attr("src",'/img/jobicon/mainjob/'+name+'.png');
   
   var url = $(".select_main_job_img_change").attr("src");
 

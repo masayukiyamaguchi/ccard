@@ -11,6 +11,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/js/main.js"></script>
 
+    <!-- jqueryUI -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8RKSP7S6W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-J8RKSP7S6W');
+    </script>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4147546043750345"crossorigin="anonymous">
+    </script>
+
 </head>
 <body>
 
@@ -51,6 +69,7 @@
         <table class="input_data_table">
             <tr>
                 <th><img class="index_icon_img" src="/img/indexicon.png" alt="">Lodestone ID</th>
+                <!-- <td>現在調整中です。リリースまでしばらくお待ち下さい</td> -->
                 <td><input type="text" class="id_input" name="loadstone_id"></td>            
 
             </tr>
@@ -124,7 +143,7 @@
 <div class="footer">
     <div class="footer_div">
     <hr class="footer_hr" color="#ffb744">
-        <div>現在Bata版となります。不具合、リクエストがございましたらご連絡ください。<br></div>
+        <div>現在Bata版となります。不具合、リクエストがございましたらご連絡ください。<a href="mailto:info@ff14-app.com">お問い合わせ</a><br></div>
         <div>Copyright (C) 2021 SQUARE ENIX CO., LTD. All Rights Reserved. </div>
     </div>
 </div>

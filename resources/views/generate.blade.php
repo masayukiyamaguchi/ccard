@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <title>FF14キャラクターカード</title>
+    <title>FF14キャラクターカード|Final Fantasy Xiv Character card generator</title>
+
+    <!-- jqueryUI -->
+    
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    
+
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/tab.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/sunny/jquery-ui.css">
@@ -19,6 +25,24 @@
     <script src="https://cdn.jsdelivr.net/npm/material-design-inspired-color-picker@1.7.2/dist/md-color-picker.min.js"></script> 
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     <!-- <script src="{{asset('/js/coffee_cookie.js') }}"></script> -->
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8RKSP7S6W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-J8RKSP7S6W');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4147546043750345"crossorigin="anonymous">
+    </script>
+
+
 </head>
 
 <body>
@@ -39,7 +63,7 @@
 <!-- ヘッダー -->
 <div class="header_div_generate">
     <div class="title_div">
-        <img class="header_generate" src="/img/header_bg3.png" alt="">
+        <a href="{{route('index')}}"><img class="header_generate" src="/img/header_bg3.png" alt=""></a>
     </div>
 </div>
 
@@ -157,7 +181,7 @@
 
         <div class="twitter-share_div">
             <!-- Twitterボタン -->
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="【ページのURL】" data-text="よろしく" data-via="" data-size="default" data-related="" data-count="" data-hashtags="キャラクターカード #キャラカ">Tweet</a> 
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://ff14-app.com/" data-text="キャラクターカード更新しました！" data-via="" data-size="default" data-related="" data-count="" data-hashtags="FF14 #キャラクターカード #キャラカ #フレンド募集">Tweet</a> 
         </div>
 
 

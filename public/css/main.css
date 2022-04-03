@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Bungee+Inline&family=Elsie+Swash+Caps:wght@400;900&family=IM+Fell+English:ital@0;1&family=Kalam:wght@300;400;700&family=Leckerli+One&family=Metamorphous&family=Noto+Sans+JP:wght@100;300;400;500&family=Nunito:wght@200;300;400;600;700&family=Righteous&family=Rock+Salt&family=Sacramento&family=Sorts+Mill+Goudy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Hachi+Maru+Pop&family=Kosugi+Maru&family=Noto+Sans+JP:wght@100;300;400&family=Noto+Serif+JP:wght@200;300;400&family=Potta+One&family=Reggae+One&family=RocknRoll+One&family=Sawarabi+Mincho&family=Stick&family=Yusei+Magic&display=swap');
-@media screen and (min-width: 480px) { /*ウィンドウ幅が480px以上の場合に適用*/
+
 
 /* ローディング画面 */
 #load {
@@ -202,6 +202,17 @@
   }
 }
 
+
+
+
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+
+.attention{
+    display: none;
+}
+
+
+
 body{
     margin: 0px;
     background-color: rgb(56, 56, 56);
@@ -269,7 +280,9 @@ body{
 
 .error_text{
     color: red;
-    padding-left: 50px;
+    text-align: center;
+    margin-top: -0px;
+    margin-bottom: -10px;
 }
 
 .top_right_menu{
@@ -357,7 +370,7 @@ body{
   .generate_button{
       text-align: center;
       padding-top: 50px;
-      padding-left: 185px;
+      padding-left: 0px;
   }
 
 
@@ -1606,7 +1619,6 @@ h3{
     text-align: center;
 }
 
-
 .footer_div{
     width: 100%;
     margin-top: 50px;
@@ -1627,13 +1639,30 @@ h3{
 
 
 
+}/*ウィンドウ幅が767px以上の場合に適用*/
+
+
+
+@media screen and (max-width : 599px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+body{
+    background-color: rgb(94, 94, 94);
+    color: white;
+    margin: 0px 0px;
 }
-/* PCのCSSおわり */
 
-
-
-
-@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-
-
+.attention{
+    color: red;
+    text-align: center;
 }
+
+.header_div img{
+    width: 100%;
+}
+
+.contents,.rigth_menu{
+    display: none;
+}
+
+
+}/*ウィンドウ幅が最大479pxまでの場合に適用*/
